@@ -1,0 +1,17 @@
+{
+  "name": "@considonet/g-sel",
+  "version": "2.0.0",
+  "description": "jQuery selector cache",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gstrap"
+  ],
+  "author": "ConsidoNet Solutions Paweł Gabryelewicz",
+  "license": "MIT",
+  "dependencies": {
+      "jquery": "^3.2.1"
+  }
+}
