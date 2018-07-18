@@ -1,10 +1,15 @@
-// G.sel 2.0.1.20180214
+// G.sel 3.0.0
 // Selector cache
 // Copyright (C) 2013-2018 ConsidoNet Solutions / www.considonet.com
 // Released under MIT Licence
 
 /*
 VERSION HISTORY
+3.0.0 (20180718) @pg
++ Switched to semver
+* Dist package now transpiled from ES6 (compatibility with building environments not transpiling node_modules)
++ Source linted with tslint
+
 2.0.1.20180214 @pg
 + TypeScript declarations
 
@@ -22,7 +27,7 @@ VERSION HISTORY
 
 */
 
-import $ from 'jquery';
+import $ from "jquery";
 
 export const $window = $(window);
 export const $html = $("html");
