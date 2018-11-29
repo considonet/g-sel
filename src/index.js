@@ -1,10 +1,14 @@
-// G.sel 3.0.0
+// G.sel 3.1.0
 // Selector cache
 // Copyright (C) 2013-2018 ConsidoNet Solutions / www.considonet.com
 // Released under MIT Licence
 
 /*
 VERSION HISTORY
+3.1.0 (20181129) @pg
++ Switched to git (now available on github), file cleanup
++ Now built with rollup
+
 3.0.0 (20180718) @pg
 + Switched to semver
 * Dist package now transpiled from ES6 (compatibility with building environments not transpiling node_modules)
